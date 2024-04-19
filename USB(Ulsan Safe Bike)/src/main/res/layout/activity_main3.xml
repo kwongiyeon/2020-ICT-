@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity3">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="100dp"
+        android:text="도로 파손도 데이터 전송"
+        android:textColor="@android:color/holo_blue_dark"
+        android:textSize="25dp" />
+
+    <Button
+        android:id="@+id/btnReturn2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="31dp"
+        android:layout_marginTop="477dp"
+        android:clickable="true"
+        app:srcCompat="@android:drawable/bottom_bar"
+        android:text="이전" />
+
+        <TextView
+            android:id="@+id/reakagegauge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginTop="250dp"
+            android:layout_marginLeft="60dp"
+            android:text="파손도: " />
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="120dp"
+        android:layout_marginTop="236dp"
+        android:ems="9"
+        android:hint="파손도를 입력해주세요"
+        android:inputType="textPersonName" />
+
+        <Button
+            android:id="@+id/tranport"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="160dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="300dp"
+            android:layout_marginEnd="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginBottom="30dp"
+            android:clickable="true"
+            android:text="전송" />
+
+        <TextView
+            android:id="@+id/resultdata"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginTop="380dp"
+            android:layout_marginLeft="170dp"
+            android:text="받은 결과: "/>
+
+    </FrameLayout>
+</LinearLayout>

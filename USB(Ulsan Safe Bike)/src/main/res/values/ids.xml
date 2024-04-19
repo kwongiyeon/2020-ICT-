@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="button" type="id"/>
+    <item name="next1" type="id"/>
+    <item name="next2" type="id"/>
+    <item name="btnReturn" type="id"/>
+    <item name="tranport" type="id"/>
+    <item name="gpscheck" type="id"/>
+</resources>
